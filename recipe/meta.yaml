@@ -21,6 +21,7 @@ requirements:
   run:
     - blocked-matrix-utils
     - fortran-binary
+    - numpy
     - python >=3.6
 
 test:
