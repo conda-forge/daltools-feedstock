@@ -1,5 +1,5 @@
 {% set name = "daltools" %}
-{% set version = "1.1.5" %}
+{% set version = "1.1.6" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 5bd3991e23a9b58ba2d596869c84e41ffac42ebdc42bb34fe8e9f336163743ca
+  sha256: ea4b14d486a50a84f2dc8d2d0ad596fd5d84a020b55d70459eb2e017be6c839a
 
 build:
   number: 0
